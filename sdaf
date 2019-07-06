@@ -1,0 +1,54 @@
+/*void setup(){
+  size(480,120);
+}*/
+/*
+void draw(){
+  background(200);
+  if(keyPressed&&(key==CODED)){//ㅀㅀㅇ ㄹㅇ ALT, CONTROL}
+  if(keyCode== LEFT){
+  x--;
+  }
+  else if(keyCode==RIGHT){
+    x++;
+}
+}
+rect(x,45,50,50);
+}
+void draw(){
+  background(200);
+if(keyPressed&&(key==CODED)){//ㅀㅀㅇ ㄹㅇ ALT, CONTROL}
+  if(keyCode== UP){
+    y--;
+  }
+  else if(keyCode==DOWN){
+    y++;
+}
+}
+rect(x,45,50,50);
+}*/
+/*
+void setup(){
+  size(240,120);
+  strokeWeight(12);
+}
+void draw(){
+  background(200);
+  stroke(255,0,0);
+  line(mouseX,0,mouseX,height);
+  stroke(0);
+  float mx=mouseX/2+50;
+  line(mx,0,mx,height);
+}*/
+  
+  void setup(){
+  size(240,120);
+  strokeWeight(12);
+}
+void draw(){
+  background(200);
+  stroke(255,0,0);
+  line(mouseX,0,mouseX,height);
+  stroke(0);
+  float mx=map(mouseX,0,width,60,180);
+  line(mx,0,mx,height);
+}
